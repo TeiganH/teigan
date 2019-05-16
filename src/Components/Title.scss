@@ -1,0 +1,63 @@
+
+.title{
+  font-family: 'Orbitron', sans-serif;
+  color:white;
+  font-size:5em;
+  position:relative;
+  width:600px;
+  margin: 0 1em;
+  border-bottom: 1px solid rgba(179,182,183,.15);
+}
+
+.title-2 {
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+    font-size:2em;
+    position:relative;
+    left: 10em;
+    // margin: 0 1em;
+    text-shadow:-2px 2px hotpink;
+    // width: 100px;
+}
+
+@keyframes noise-anim{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+.title:after{
+  content:attr(data-text);
+  position:absolute;
+  left:2px;
+  text-shadow:-1px 0 hotpink;
+  top:0;
+  color:white;
+  background:#101010;
+  overflow:hidden;
+  clip:rect(0,900px,0,0); 
+  animation:noise-anim 5s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+.title:before{
+  content:attr(data-text);
+  position:absolute;
+  left:-2px;
+  text-shadow:1px 0 aqua; 
+  top:0;
+  color:white;
+  background:#101010;
+  overflow:hidden;
+  clip:rect(0,900px,0,0); 
+  animation:noise-anim-2 6s infinite linear alternate-reverse;
+}
