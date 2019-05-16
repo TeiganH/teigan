@@ -15,9 +15,7 @@
     font-size:2em;
     position:relative;
     left: 10em;
-    // margin: 0 1em;
-    text-shadow:-2px 2px hotpink;
-    // width: 100px;
+    text-shadow:-2px 2px rgb(218, 91, 112);
 }
 
 @keyframes noise-anim{
@@ -32,10 +30,10 @@
   content:attr(data-text);
   position:absolute;
   left:2px;
-  text-shadow:-1px 0 hotpink;
+  text-shadow:-1px 0 rgb(218, 91, 112);
   top:0;
   color:white;
-  background:#101010;
+  background:#020202;
   overflow:hidden;
   clip:rect(0,900px,0,0); 
   animation:noise-anim 5s infinite linear alternate-reverse;
@@ -56,7 +54,7 @@
   text-shadow:1px 0 aqua; 
   top:0;
   color:white;
-  background:#101010;
+  background:#020202;
   overflow:hidden;
   clip:rect(0,900px,0,0); 
   animation:noise-anim-2 6s infinite linear alternate-reverse;
