@@ -9,6 +9,7 @@ body {
   background-attachment: fixed;
   background-position: right bottom;
   background-size: 600px;
+  font-size: 1em;
 }
 
 nav {
@@ -72,20 +73,19 @@ nav {
 
 .quote {
   float: right;
-  font-size: .9em;
+  font-size: .7em;
   color: white;
   width: 300px;
   letter-spacing: .15em;
   padding: 10px;
   border: 1px solid rgba(179,182,183,.15);
-  background: radial-gradient( #020202 60%, rgba(255,105,180, .1));
+  background: radial-gradient( #020202 60%, rgba(255,105,180, .2));
 }
 
 .quote::first-letter {
   font-size: 2em;
   font-family: 'Obitron', sans-serif;
   text-shadow:1px 0 aqua;
-
 }
 
 .cite {
@@ -95,21 +95,57 @@ nav {
   color: aqua;
 }
 
-.arrow {
-  position: -webkit-sticky; /* Safari */  
-  position: sticky;
-  bottom: 0;
-  font-size: 2em;
-  color: white;
-  
-}
-
 .main {
   color: white;
   position: relative;
   height: 500px;
-  width: 600px;
+  width: 550px;
   left: 70px;
   top: 20px;
+  font-size: .8em;
+  letter-spacing: .15em;
+}
 
+.tag {
+  text-transform: lowercase;
+  font-size: .7em;
+  font-style: italic;
+  color:  rgba(0,255,255,.25);
+}
+
+.work-container {
+  border: 1px solid rgba(179,182,183,.15);
+  margin: 10px;
+  background: radial-gradient( #020202 80%, rgba(255,105,180, .2));
+}
+
+.work-img {
+  display: block;
+  padding: 10px;
+  width: 400px;
+  margin: auto;
+}
+
+.work-desc {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid rgba(179,182,183,.15);
+}
+
+.work-link {
+  width: 20px;
+}
+
+.work-link-container {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.work-link-container a {
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+  text-shadow:1px 0 aqua;
 }
