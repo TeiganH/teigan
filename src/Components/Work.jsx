@@ -15,7 +15,7 @@ export default function Work() {
           Dev & Design: Full-stack React, Ruby on Rails, Postgres Database
         </div>
         <div className="work-link-container">
-          <a href="http://black-thumb.surge.sh" target="_blank">http://black-thumb.surge.sh/</a>
+          <a href="http://black-thumb.surge.sh" target="_blank" rel="noopener noreferrer">http://black-thumb.surge.sh/</a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <img className="work-link" src={github} alt="github" />
           <a href="https://github.com/TeiganH/black-thumb">Github</a>
@@ -27,7 +27,7 @@ export default function Work() {
           Agile dev paired with UX: Front-end React
         </div>
         <div className="work-link-container">
-          <a href="http://chumleys-app.surge.sh/" target="_blank">http://chumleys-app.surge.sh</a>
+          <a href="http://chumleys-app.surge.sh/" target="_blank" rel="noopener noreferrer">http://chumleys-app.surge.sh</a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <img className="work-link" src={github} alt="github" />
           <a href="https://github.com/TeiganH/Chumleys">Github</a>
@@ -42,7 +42,7 @@ export default function Work() {
           <a href="https://streetstagram.herokuapp.com/" target="_blank">https://streetstagram.herokuapp.com</a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <img className="work-link" src={github} alt="github" />
-          <a href="https://github.com/TeiganH/Streetsagram">Github</a>
+          <a href="https://github.com/TeiganH/Streetsagram" target="_blank" rel="noopener noreferrer">Github</a>
         </div>
       </div>
       <div className="work-container">
@@ -51,7 +51,7 @@ export default function Work() {
           Design & Dev: External API, React
         </div>
         <div className="work-link-container">
-          <a href="https://warm-reef-45637.herokuapp.com/" target="_blank">https://warm-reef-45637.herokuapp.com/</a>
+          <a href="https://warm-reef-45637.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://warm-reef-45637.herokuapp.com/</a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <img className="work-link" src={github} alt="github" />
           <a href="https://github.com/TeiganH/where-is-iss">Github</a>

@@ -52,13 +52,6 @@ nav {
   width: 50%;
 }
 
-.design {
-  position: fixed;
-  color: white;
-  font-size: 3em;
-  right: 9em;
-}
-
 .quote-box{
   position: fixed;
   color: white;
@@ -101,6 +94,7 @@ nav {
   height: 500px;
   width: 550px;
   left: 70px;
+  right: 0px;
   top: 20px;
   font-size: .8em;
   letter-spacing: .15em;
@@ -112,6 +106,12 @@ nav {
   font-style: italic;
   color:  rgba(0,255,255,.25);
 }
+
+.tag-text {
+  position: relative;
+  left: 40px;
+}
+
 
 .work-container {
   border: 1px solid rgba(179,182,183,.15);
@@ -179,4 +179,183 @@ nav {
   width: .1em;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body {
+  background-size: 400px;
+  }
+
+  .main {
+    height: auto;
+    width: 360px;
+    margin: 0;
+  }
+
+  .container {
+    width: 690px;
+    background-color: #020202;
+  }
+  
+  .work-img {
+    width: 600px;
+  }
+  
+  .work-desc {
+    width: 600px;
+  }
+  
+  .work-link {
+    width: 20px;
+  }
+
+  .work-link-container a {
+    font-size: .7em;
+  }
+
+  .about-container {
+    width: 325px;
+  }
+  
+  .about-img {
+    height: 100px;
+  }
+
+  .contact {
+    width: 325px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+
+   body {
+    width: 375px;
+    background-image: none;
+  }
+  
+  .quote-box{
+    display: none;
+  }
+
+  .tag-text {
+    width: 250px;
+  }
+
+  .work-container {
+    width: 300px;
+  }
+  
+  .work-img {
+    width: 250px;
+  }
+  
+  .work-desc {
+    width: 250px;
+  }
+  
+  .work-link {
+    width: 10px;
+  }
+
+  .about-container {
+    width: 325px;
+  }
+  
+  .about-img {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+
+  body {
+   width: 375px;
+   background-image: none;
+ }
+ 
+ .quote-box{
+   display: none;
+ }
+
+ .tag-text {
+   width: 250px;
+ }
+
+ .work-container {
+   width: 300px;
+ }
+ 
+ .work-img {
+   width: 250px;
+ }
+ 
+ .work-desc {
+   width: 250px;
+ }
+ 
+ .work-link {
+   width: 10px;
+ }
+
+ .about-container {
+   width: 325px;
+ }
+ 
+ .about-img {
+   height: 100px;
+ }
+}
+
+@media only screen and (max-width: 375px) {
+
+  body {
+    width: 375px;
+    background-image: none;
+  }
+  
+  .quote-box{
+    display: none;
+  }
+  
+  .main {
+    height: auto;
+    width: 360px;
+  }
+
+  .tag-text {
+    width: 250px;
+  }
+
+  .work-container {
+    width: 250px;
+  }
+  
+  .work-img {
+    width: 225px;
+  }
+  
+  .work-desc {
+    width: 225px;
+  }
+  
+  .work-link {
+    width: 10px;
+  }
+
+  .work-link-container a {
+    font-size: .7em;
+  }
+
+  .about-container {
+    width: 275px;
+  }
+  
+  .about-img {
+    height: 100px;
+  }
+
+  .contact {
+    width: 300px;
+  }
 }
