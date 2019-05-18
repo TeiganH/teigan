@@ -149,3 +149,34 @@ nav {
   color: white;
   text-shadow:1px 0 aqua;
 }
+
+.about-img {
+  float: left;
+  height: 150px;
+  border-radius: 15px 5px;
+  padding-right: 10px;
+}
+
+.contact a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  text-shadow:1px 0 aqua;
+}
+
+.contact a:hover {
+  color: white;
+  text-shadow: none;
+}
+
+.contact ul {
+  padding: 1em .5em;
+}
+
+.contact li {
+  list-style-type: none;
+  padding: 0.6em;
+  width: .1em;
+  text-align: center;
+  text-transform: uppercase;
+}
