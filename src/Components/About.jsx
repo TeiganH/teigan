@@ -13,7 +13,7 @@ export default class About extends Component {
           <br />
           Artist</h3>
           <p />
-          In web development user experience comes first. A site that is easy, intuitive, and attractive gives the user a pleasant experience. When a user trusts an organization's app to reflect the culture of the org and how they will treat their clients.
+          In web development user experience comes first. A site that is easy, intuitive, and attractive gives the user a pleasant experience, where a user trusts an organization's app to reflect the culture of the org and how they will treat their clients.
           <p />
           I can help with the impact that your site and app has on your clients using programming, UX design, and psychology driven knowledge of human behavior.
           <p /> 

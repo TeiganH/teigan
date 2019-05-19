@@ -39,7 +39,7 @@ export default function Work() {
           Agile dev & design: Fullstack React, Express, Sequelize, Node, and AWS
         </div>
         <div className="work-link-container">
-          <a href="https://streetstagram.herokuapp.com/" target="_blank">https://streetstagram.herokuapp.com</a>
+          <a href="https://streetstagram.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://streetstagram.herokuapp.com</a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <img className="work-link" src={github} alt="github" />
           <a href="https://github.com/TeiganH/Streetsagram" target="_blank" rel="noopener noreferrer">Github</a>
