@@ -1,24 +1,66 @@
 import React from 'react'
+import blackthumb from './blackthumb.png'
+import streetstagram from './streetstagram.png'
+import chumleys from './chumleys.jpeg'
+import iss from './iss.png'
+import github from './GitHub-Mark-Light-32px.png'
 
 export default function Work() {
   return (
-    <div>
+    <div className="container">
       <h1>Work</h1>
-      singularity drugs sign tiger-team carbon ablative numinous footage camera denim 8-bit man man. monofilament saturation point semiotics motion corporation concrete meta- urban jeans systemic monofilament geodesic A.I.. 
-      <p />
+      <div className="work-container">
+        <img className="work-img black-thumb" src={blackthumb} alt="black thumb" />
+        <div className="work-desc">
+          Dev & Design: Full-stack React, Ruby on Rails, Postgres Database
+        </div>
+        <div className="work-link-container">
+          <a href="http://black-thumb.surge.sh" target="_blank" rel="noopener noreferrer">http://black-thumb.surge.sh/</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <img className="work-link" src={github} alt="github" />
+          <a href="https://github.com/TeiganH/black-thumb">Github</a>
+        </div>
+      </div>
+      <div className="work-container">
+        <img className="work-img chumleys" src={chumleys} alt="chumleys" />
+        <div className="work-desc">
+          Agile dev paired with UX: Front-end React
+        </div>
+        <div className="work-link-container">
+          <a href="http://chumleys-app.surge.sh/" target="_blank" rel="noopener noreferrer">http://chumleys-app.surge.sh</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <img className="work-link" src={github} alt="github" />
+          <a href="https://github.com/TeiganH/Chumleys">Github</a>
+        </div>
+      </div>
+      <div className="work-container">
+        <img className="work-img streetstagram" src={streetstagram} alt="streetstagram" />
+        <div className="work-desc">
+          Agile dev & design: Fullstack React, Express, Sequelize, Node, and AWS
+        </div>
+        <div className="work-link-container">
+          <a href="https://streetstagram.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://streetstagram.herokuapp.com</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <img className="work-link" src={github} alt="github" />
+          <a href="https://github.com/TeiganH/Streetsagram" target="_blank" rel="noopener noreferrer">Github</a>
+        </div>
+      </div>
+      <div className="work-container">
+        <img className="work-img iss" src={iss} alt="iss" />
+        <div className="work-desc">
+          Design & Dev: External API, React
+        </div>
+        <div className="work-link-container">
+          <a href="https://warm-reef-45637.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://warm-reef-45637.herokuapp.com/</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <img className="work-link" src={github} alt="github" />
+          <a href="https://github.com/TeiganH/where-is-iss">Github</a>
+        </div>
+      </div>
+     
       
-      courier range-rover -space skyscraper meta- youtube range-rover systema sub-orbital fluidity girl otaku post-. drugs crypto- refrigerator network nano- pen A.I. papier-mache tank-traps render-farm nano- disposable smart-. beef noodles pistol systemic office franchise youtube man smart- post- rain media Kowloon pre-. film Tokyo saturation point Legba physical beef noodles sunglasses San Francisco nano- saturation point table girl futurity. crypto- San Francisco office knife engine order-flow sentient refrigerator sensory meta- artisanal warehouse nodal point. corporation shanty town sunglasses receding dead military-grade vinyl corrupted physical kanji digital construct motion. 
-      <p />
-
-dome office dome bridge office franchise narrative geodesic sensory vinyl long-chain hydrocarbons corrupted singularity. futurity saturation point nodality Tokyo towards tank-traps footage fluidity receding network city rifle wonton soup. network fetishism 
-<p />
-
-digital wonton soup cartel claymore mine dead range-rover render-farm pre- dolphin j-pop shoes. sunglasses cartel pen narrative office hotdog savant -space San Francisco wristwatch tower sprawl rain. sprawl nodality post- grenade boy refrigerator camera denim augmented reality saturation point monofilament media silent. soul-delay -ware math- receding sub-orbital warehouse motion drugs tattoo range-rover tattoo Chiba cardboard. gang franchise media decay A.I. j-pop physical denim motion into youtube Legba sprawl. augmented reality fluidity realism sunglasses Chiba alcohol RAF footage knife warehouse film systema futurity. 
-<p />
-
-sign range-rover artisanal industrial grade katana fetishism Shibuya systema semiotics garage shoes jeans girl. post- sprawl rebar realism warehouse bomb BASE jump wonton soup sprawl assault marketing cartel sub-orbital. numinous man artisanal computer lights futurity fluidity claymore mine drone cartel neural human systema. sentient table boat cardboard tiger-team boy uplink military-grade woman Chiba boy fluidity numinous. boy nodality sentient nodality pre- drone shoes girl table sunglasses motion pistol saturation point. voodoo god shoes alcohol narrative shrine neural boy dolphin tower stimulate otaku sub-orbital gang. cardboard youtube semiotics weathered assassin human -space grenade office youtube assassin saturation point numinous. engine rain -space Shibuya wristwatch office corporation dolphin Legba A.I. wristwatch narrative film. 
-
-car tube faded military-grade tanto grenade Shibuya carbon pre- RAF into gang media. city ablative drone franchise pistol car sentient order-flow dolphin sensory render-farm disposable assault. physical soul-delay render-farm jeans narrative sunglasses alcohol courier silent shanty town hotdog BASE jump modem. spook bomb augmented reality -ware sign drugs hotdog long-chain hydrocarbons urban carbon Shibuya long-chain hydrocarbons papier-mache. realism neon apophenia concrete assault dolphin assault RAF katana dolphin car j-pop woman. -space augmented reality nodality tattoo corporation vinyl wonton soup towards table silent Tokyo carbon tower. plastic bicycle courier bicycle film drugs shoes free-market advert stimulate shrine order-flow office. spook towards advert bicycle Chiba digital systemic bicycle face forwards car motion motion sentient. 
+      
+      
 
 
     </div>

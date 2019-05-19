@@ -6,7 +6,7 @@ export default class Logo extends Component {
     return (
       <div className="logo">
         <div className="title" data-text="TEIGAN⋮">TEIGAN⋮ </div> 
-        <div className="title-2">design/dev/data</div>
+        <div className="title-2">design & development</div>
       </div>
     )
   }

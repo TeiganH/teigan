@@ -1,11 +1,27 @@
 import React, { Component } from 'react'
+import me from './teigan.jpg'
 
 export default class About extends Component {
   render() {
     return (
-      <div>
+      <div className="about-container">
         <h1>About</h1>
-      cardboard courier free-market into papier-mache towards tiger-team tanto sentient knife nano- 3D-printed stimulate shoes assassin. car 3D-printed papier-mache sub-orbital sprawl modem market Shibuya 8-bit Chiba realism face forwards tube A.I. cyber-. hacker marketing assault knife faded beef noodles cardboard rain numinous construct meta- tiger-team military-grade narrative tank-traps. pistol nodality tiger-team advert camera skyscraper voodoo god media crypto- monofilament nano- corporation voodoo god city dead. 
+          <img className="about-img" src={me} alt="me" /> 
+          <h3>Front-End Developer & Designer<br /> 
+          Data Analyst<br />
+          Future I/O psychologist
+          <br />
+          Artist</h3>
+          <p />
+          In web development user experience comes first. A site that is easy, intuitive, and attractive gives the user a pleasant experience, where a user trusts an organization's app to reflect the culture of the org and how they will treat their clients.
+          <p />
+          I can help with the impact that your site and app has on your clients using programming, UX design, and psychology driven knowledge of human behavior.
+          <p /> 
+          <h3>Let's create something awesome together!</h3>
+          <br /> <br /><br />
+          SPSS | R | D3.js | Python | 
+          HTML5 | CSS3 | React | Javascript | Rails | Ruby |
+          PostGresql | Photoshop | Git | Express | AWS | Node
       </div>
     )
   }

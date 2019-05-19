@@ -1,8 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Work from './Work.jsx'
-import About from './About.jsx'
-import Contact from './Contact.jsx'
+
 
 
 export default function Nav() {
