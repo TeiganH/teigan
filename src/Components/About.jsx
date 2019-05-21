@@ -7,13 +7,14 @@ export default class About extends Component {
       <div className="about-container">
         <h1>About</h1>
           <img className="about-img" src={me} alt="me" /> 
-          <h3>Front-End Developer & Designer<br /> 
-          Data Analyst<br />
-          Future I/O psychologist
-          <br />
-          Artist</h3>
+          <h3>Front-End Developer & <br /> 
+          Technical Solutions
+          </h3>
           <p />
-          In web development, user experience comes first. A site that is easy, intuitive, and attractive gives the user a pleasant experience, where a user trusts an organization's app to reflect the culture of the org and how they will treat their clients.
+          In web development, user experience comes first. 
+          
+          <p />
+          A site that is easy, intuitive, and attractive gives the user a pleasant experience. This helps the user to trust an organization's app to reflect the culture of the org and how they will treat their clients.
           <p />
           I can help with the impact that your site and app has on your clients using programming, UX design, and psychology-driven knowledge of human behavior.
           <p /> 

@@ -2,6 +2,7 @@
 
 html, body {
   width: 100%;
+  min-height: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
@@ -15,13 +16,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right bottom;
-  background-size: 600px;
-  font-size: 1em;
+  background-size: 40%;
+  font-size: 1.4vw;
 }
 
 nav {
   height: 100%;
-  width: 50px;
+  width: 4%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -32,7 +33,7 @@ nav {
 
 .nav a {
   text-decoration: none;
-  font-size: .9em;
+  font-size: 1em;
   color: rgb(218, 91, 112);
   text-shadow:1px 0 aqua;
 }
@@ -55,17 +56,13 @@ nav {
   text-transform: uppercase;
 }
 
-.logo {
-  width: 50%;
-}
-
 .quote-box{
-  position: fixed;
+  position: absolute;
   color: white;
-  right: 0;
-  bottom: 0;
-  width: 300px;
-  height:500px;
+  right: 0px;
+  bottom: 0px;
+  width: 25%;
+  height:75%;
   padding:10px;
   border-left: 1px dotted rgba(179,182,183,.20);
   border-top: 1px dotted rgba(179,182,183,.20);
@@ -73,9 +70,9 @@ nav {
 
 .quote {
   float: right;
-  font-size: .7em;
+  font-size: 1vw;
   color: white;
-  width: 300px;
+  width: 100%;
   letter-spacing: .15em;
   padding: 10px;
   border: 1px solid rgba(179,182,183,.15);
@@ -83,14 +80,14 @@ nav {
 }
 
 .quote::first-letter {
-  font-size: 2em;
+  font-size: 2vw;
   font-family: 'Obitron', sans-serif;
   text-shadow:1px 0 aqua;
 }
 
 .cite {
   text-transform: uppercase;
-  font-size: .7em;
+  font-size: .9vw;
   font-style: italic;
   color: aqua;
 }
@@ -98,18 +95,19 @@ nav {
 .main {
   color: white;
   position: relative;
-  height: 500px;
-  width: 550px;
-  left: 70px;
-  right: 0px;
+  height: 50%;
+  width: 50%;
+  left: 5%;
   top: 20px;
-  font-size: .8em;
+  font-size: 1vw;
   letter-spacing: .15em;
+  margin: 1%;
+  background-color: #020202;
 }
 
 .tag {
   text-transform: lowercase;
-  font-size: .7em;
+  font-size: 1vw;
   font-style: italic;
   color:  rgba(0,255,255,.25);
 }
@@ -122,19 +120,20 @@ nav {
 
 .work-container {
   border: 1px solid rgba(179,182,183,.15);
-  margin: 10px;
+  margin: 1%;
   background: radial-gradient( #020202 80%, rgba(255,105,180, .2));
+  width: 100%;
 }
 
 .work-img {
   display: block;
   padding: 10px;
-  width: 400px;
+  width: 90%;
   margin: auto;
 }
 
 .work-desc {
-  width: 400px;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   padding: 10px;
@@ -142,7 +141,7 @@ nav {
 }
 
 .work-link {
-  width: 20px;
+  width: 3%;
 }
 
 .work-link-container {
@@ -152,14 +151,14 @@ nav {
 
 .work-link-container a {
   text-decoration: none;
-  font-size: 1em;
   color: white;
-  text-shadow:1px 0 aqua;
+  font-size: 1.5vw;
+  text-shadow:1px 0 rgba(0, 255, 255, .75);
 }
 
 .about-img {
   float: left;
-  height: 150px;
+  width: 25%;
   border-radius: 15px 5px;
   padding-right: 10px;
 }
@@ -188,228 +187,104 @@ nav {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 900px) {
-
-  .quote-box{
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 768px) {
-
   body {
-  background-image: none;
+    font-size: 4vw;
   }
 
-  .main {
-    height: auto;
-    width: 360px;
-    margin: 0;
-  }
-
-  .quote-box{
-    display: none;
-  }
-
-  .container {
-    width: 550px;
-    background-color: #020202;
-  }
-  
-  .work-img {
-    width: 500px;
-  }
-  
-  .work-desc {
-    width: 500px;
-  }
-  
-  .work-link {
-    width: 20px;
-  }
-
-  .work-link-container a {
-    font-size: .7em;
-  }
-
-  .about-container {
-    width: 325px;
-  }
-  
-  .about-img {
-    height: 100px;
-  }
-
-  .contact {
-    width: 325px;
-  }
-}
-
-@media only screen and (max-width: 411px) {
-
-   body {
-    width: 375px;
-    background-image: none;
-  }
-  
-  .quote-box{
-    display: none;
-  }
-
-  .tag-text {
-    width: 250px;
-  }
-
-  .work-container {
-    width: 300px;
-  }
-  
-  .work-img {
-    width: 250px;
-  }
-  
-  .work-desc {
-    width: 250px;
-  }
-  
-  .work-link {
-    width: 10px;
-  }
-
-  .about-container {
-    width: 325px;
-  }
-  
-  .about-img {
-    height: 100px;
-  }
-}
-
-@media only screen and (max-width: 414px) {
-
-  body {
-   width: 375px;
-   background-image: none;
- }
- 
- .quote-box{
-   display: none;
- }
-
- .tag-text {
-   width: 250px;
- }
-
- .work-container {
-   width: 300px;
- }
- 
- .work-img {
-   width: 250px;
- }
- 
- .work-desc {
-   width: 250px;
- }
- 
- .work-link {
-   width: 10px;
- }
-
- .about-container {
-   width: 325px;
- }
- 
- .about-img {
-   height: 100px;
- }
-}
-
-@media only screen and (max-width: 375px) {
-  body {
-    background-image: none;
-    font-size: .8em;
-    height: auto;
-  }
   
   nav {
-    width: 40px;
-    height: 500px;
+    width: 11%;
+  }
+
+  .quote-box {
+    display: none;
   }
   
   .main {
-    height: auto;
-    width: 350px;
-    left: 50px;
-    font-size: .7em;
+    width: 75%;
+    left: 13%;
+    font-size: 2.5vw;
   }
   
   .tag {
-    font-size: 1em;
-    color:  rgba(0,255,255,.25);
+    font-size: 2.5vw;
   }
   
   .tag-text {
     left: 30px;
-    font-size: 1.5em;
-    width: 250px;
-  }
-  
-  .work-container {
-    width: 250px;
-  }
-  
-  .work-img {
-    padding: 5px;
-    width: 240px;
-  }
-  
-  .work-desc {
-    width: 240px;
-  }
-  
-  .work-link {
-    width: 10px;
-  }
-  
-  .work-link-container {
-    padding-bottom: 5px;
   }
 
-  .about-container {
-    width: 300px;
+  .work-container a {
+    background-color: #020202;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  body {
+    font-size: 4vw;
   }
   
-  .about-img {
-    height: 100px;
-    padding-right: 5px;
+  nav {
+    width: 11%;
   }
 
-  .contact {
-    width: 300px;
+  .quote-box {
+    display: none;
   }
   
-  .contact a {
-    text-decoration: none;
-    font-size: 1.5em;
-    color: white;
-    text-shadow:1px 0 aqua;
+  .main {
+    width: 75%;
+    left: 50px;
+    font-size: 2.5vw;
   }
   
-  .contact a:hover {
-    color: white;
-    text-shadow: none;
+  .tag {
+    font-size: 2.5vw;
   }
   
-  .contact ul {
-    padding: 1em .5em;
+  .tag-text {
+    left: 30px;
+  }
+
+  .work-container a {
+    background-color: #020202;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    font-size: 4vw;
   }
   
-  .contact li {
-    list-style-type: none;
-    padding: 0.6em;
-    width: .1em;
-    text-align: center;
-    text-transform: uppercase;
+  nav {
+    width: 11%;
   }
+
+  .quote-box {
+    display: none;
+  }
+  
+  .main {
+    width: 75%;
+    left: 15%;
+    font-size: 2.5vw;
+  }
+  
+  .tag {
+    font-size: 2.5vw;
+  }
+  
+  .tag-text {
+    left: 30px;
+    width: 90%;
+  }
+
+  .work-container a {
+    background-color: #020202;
+    font-size: 3vw;
+  }
+  
 }

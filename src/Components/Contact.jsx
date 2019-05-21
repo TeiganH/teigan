@@ -12,8 +12,6 @@ export default class Contact extends Component {
           <li><a href="https://www.instagram.com/culture_crime/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
           <li><a href="mailto:teigan.hockman@gmail.com?Subject=Web%20Development%20Consultation" target="_top">Email</a></li>
         </ul>
-
-        I am also available for branding, artistic projects, and hand-drawn illustrations.
       </div>
     )
   }

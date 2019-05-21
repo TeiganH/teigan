@@ -4,7 +4,7 @@
   color:white;
   font-size:5em;
   position:relative;
-  width:600px;
+  width: 25%;
   margin: 0 1em;
   border-bottom: 1px solid rgba(179,182,183,.15);
 }
@@ -60,7 +60,7 @@
   animation:noise-anim-2 6s infinite linear alternate-reverse;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 768px) {
 
   .title{
     font-size:4em;
@@ -71,24 +71,9 @@
   }
   
   .title-2 {
-      font-size:2em;
+      font-size:5vw;
       position:relative;
-      left: 5em;
-  }
-  
-}
-
-@media only screen and (max-width: 375px) {
-
-  .title{
-    font-size:3em;
-    position:relative;
-    width:250px;
-  }
-  
-  .title-2 {
-    font-size:1.5em;
-    left: 5em;
+      left: 35%;
   }
   
 }
